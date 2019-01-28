@@ -1,0 +1,25 @@
+$acolor: #007aff;
+$scolor: #007aaa;
+$bcolor: #eee;
+$padding: 4px;
+
+.wl-dashboard {
+  padding: $padding;
+  
+  & figure {
+    padding: $padding;
+    border: 1px solid $bcolor;
+  }
+  
+  & figcaption {
+    background-color: $bcolor;
+  }
+  
+  & dt, dd {
+    display: inline-block;
+  }
+  
+  & .wl-card-news {
+    background-color: $bcolor;
+  }
+}
